@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Calculator</title>
+    <style>
+
+        #main{
+            width: 400px;
+            height: 480px;
+            border-radius: 3%;
+            margin:10px auto;
+            margin-bottom: 30px;
+            padding: 60px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+        #first{
+            width: 89%;
+            height: 80px;
+            border-radius: 30%;
+            margin: auto;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+        .second{
+            /* border: 3px solid green; */
+            height: 80%;
+            width: 90%;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(4,70PX);
+            gap: 20PX;
+        }
+        .second>div{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        #clear{
+            background-color: rgb(255, 92, 92);
+        }
+        .black{
+            background-color: rgba(28, 22, 22, 0.856);
+        }
+        .white{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+     <!-- main is the body of this Calculator -->
+    <div id="main">
+       
+       <!-- first is the screen of the Calculator -->
+
+        <div id="first">
+
+        </div>
+       
+        <!-- second is the input area of the Calculator -->
+
+        <div class="second">
+            <div>
+                <h1>1</h1>
+            </div>
+            <div>
+                <h1>2</h1>
+            </div>
+            <div>
+                <h1>3</h1>
+            </div>
+            <div class="black">
+                <h1 class="white">+</h1>
+            </div>
+            <div>
+                <h1>4</h1>
+            </div>
+            <div>
+                <h1>5</h1>
+            </div>
+            <div>
+                <h1>6</h1>
+            </div>
+            <div class="black">
+                <h1 class="white">-</h1>
+            </div>
+            <div>
+                <h1>7</h1>
+            </div>
+            <div>
+                <h1>8</h1>
+            </div>
+            <div>
+                <h1>9</h1>
+            </div>
+            <div class="black">
+                <h1 class="white">X</h1>
+            </div>
+            <div id="clear">
+                <h1>C</h1>
+            </div>
+            <div>
+                <h1>0</h1>
+            </div>
+            <div class="black">
+                <h1 class="white">=</h1>
+            </div>
+            <div class="black">
+                <h1 class="white">/</h1>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
